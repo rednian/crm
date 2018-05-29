@@ -1,0 +1,17 @@
+Mon May 28 09:43:48 2018 [1768][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: Table 'suitecrm.currencies' doesn't exist
+Mon May 28 09:43:48 2018 [1768][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Users' AND  deleted = 0: MySQL error 1146: Table 'suitecrm.fields_meta_data' doesn't exist
+Mon May 28 09:43:48 2018 [1768][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Employees' AND  deleted = 0: MySQL error 1146: Table 'suitecrm.fields_meta_data' doesn't exist
+Mon May 28 09:43:48 2018 [1768][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0: MySQL error 1146: Table 'suitecrm.fields_meta_data' doesn't exist
+Mon May 28 09:43:48 2018 [1768][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0: MySQL error 1146: Table 'suitecrm.fields_meta_data' doesn't exist
+Mon May 28 09:43:48 2018 [1768][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: Table 'suitecrm.config' doesn't exist
+Mon May 28 09:44:02 2018 [1768][-none-][FATAL]  Query Failed: SELECT id FROM outbound_email WHERE type = 'system': MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Mon May 28 09:44:02 2018 [1768][-none-][FATAL]  Query Failed: INSERT INTO outbound_email (id,name,type,user_id,mail_sendtype,mail_smtptype,mail_smtpserver,mail_smtpport,mail_smtpuser,mail_smtppass,mail_smtpauth_req,mail_smtpssl) VALUES ('40a18708-e351-1cd9-0f86-5b0bb3efaf24','system','system','1','SMTP','other','',25,'','',1,0): MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Mon May 28 09:51:25 2018 [1768][-none-][FATAL] SECURITY: User authentication for admin failed
+Mon May 28 09:51:25 2018 [1768][-none-][FATAL] FAILED LOGIN:attempts[1], ip[127.0.0.1], username[admin]
+Mon May 28 09:52:11 2018 [1768][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon May 28 09:53:56 2018 [1768][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Mon May 28 09:55:08 2018 [1768][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Mon May 28 10:07:32 2018 [1768][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon May 28 10:43:41 2018 [1768][1][FATAL] ERROR: There was an error during your upload, please contact an administrator for help.
+Mon May 28 10:44:17 2018 [1768][1][FATAL] Action = editLayout with unknown view=SearchView
+Mon May 28 10:44:21 2018 [1768][1][FATAL] Action = editLayout with unknown view=SearchView
