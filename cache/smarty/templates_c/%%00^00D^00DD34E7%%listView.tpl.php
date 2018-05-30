@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-05-28 10:09:29
+<?php /* Smarty version 2.6.29, created on 2018-05-30 05:57:11
          compiled from modules/ModuleBuilder/tpls/listView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'modules/ModuleBuilder/tpls/listView.tpl', 70, false),array('function', 'counter', 'modules/ModuleBuilder/tpls/listView.tpl', 78, false),array('function', 'math', 'modules/ModuleBuilder/tpls/listView.tpl', 82, false),array('function', 'sugar_getimage', 'modules/ModuleBuilder/tpls/listView.tpl', 109, false),array('modifier', 'substr', 'modules/ModuleBuilder/tpls/listView.tpl', 117, false),array('modifier', 'escape', 'modules/ModuleBuilder/tpls/listView.tpl', 120, false),)), $this); ?>

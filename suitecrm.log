@@ -15,3 +15,23 @@ Mon May 28 10:07:32 2018 [1768][1][FATAL] SugarBean::populateDefaultValues $fiel
 Mon May 28 10:43:41 2018 [1768][1][FATAL] ERROR: There was an error during your upload, please contact an administrator for help.
 Mon May 28 10:44:17 2018 [1768][1][FATAL] Action = editLayout with unknown view=SearchView
 Mon May 28 10:44:21 2018 [1768][1][FATAL] Action = editLayout with unknown view=SearchView
+Tue May 29 04:44:34 2018 [1752][1][FATAL] ERROR: rmdir_recursive(): argument custom/modulebuilder/packages/test is not a file or a dir.
+Tue May 29 04:52:51 2018 [1752][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue May 29 05:27:34 2018 [4896][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 30 04:15:42 2018 [1760][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 30 04:51:02 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 04:52:16 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:08:32 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:09:46 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:10:39 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:11:36 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:12:35 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:13:52 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:14:43 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:15:46 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:20:11 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:21:53 2018 [1476][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Wed May 30 05:22:22 2018 [1476][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 30 05:22:38 2018 [1476][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 30 05:51:46 2018 [1476][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 30 08:20:03 2018 [1476][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array

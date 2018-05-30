@@ -7892,6 +7892,1266 @@
     'join_key_lhs' => 'surveyq72c7options_ida',
     'join_key_rhs' => 'surveyq10d4sponses_idb',
   ),
+  'accounts_sp_salesinvoice_1' => 
+  array (
+    'name' => 'accounts_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'accounts_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'Accounts',
+        'lhs_table' => 'accounts',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'accounts_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'accounts_sp_salesinvoice_1accounts_ida',
+        'join_key_rhs' => 'accounts_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'accounts_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'accounts_sp_salesinvoice_1accounts_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'accounts_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'accounts_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'accounts_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'accounts_sp_salesinvoice_1accounts_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'accounts_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'accounts_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'Accounts',
+    'lhs_table' => 'accounts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'accounts_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'accounts_sp_salesinvoice_1accounts_ida',
+    'join_key_rhs' => 'accounts_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'leads_sp_salesinvoice_1' => 
+  array (
+    'name' => 'leads_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'leads_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'Leads',
+        'lhs_table' => 'leads',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'leads_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'leads_sp_salesinvoice_1leads_ida',
+        'join_key_rhs' => 'leads_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'leads_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'leads_sp_salesinvoice_1leads_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'leads_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'leads_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'leads_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'leads_sp_salesinvoice_1leads_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'leads_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'leads_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'Leads',
+    'lhs_table' => 'leads',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'leads_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'leads_sp_salesinvoice_1leads_ida',
+    'join_key_rhs' => 'leads_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_bank_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_bank_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_bank_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_bank',
+        'lhs_table' => 'sp_bank',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_bank_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_bank_sp_salesinvoice_1sp_bank_ida',
+        'join_key_rhs' => 'sp_bank_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_bank_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_bank_sp_salesinvoice_1sp_bank_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_bank_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_bank_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_bank_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_bank_sp_salesinvoice_1sp_bank_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_bank_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_bank_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_bank',
+    'lhs_table' => 'sp_bank',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_bank_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_bank_sp_salesinvoice_1sp_bank_ida',
+    'join_key_rhs' => 'sp_bank_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_charges_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_charges_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_charges_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_Charges',
+        'lhs_table' => 'sp_charges',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_charges_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_charges_sp_salesinvoice_1sp_charges_ida',
+        'join_key_rhs' => 'sp_charges_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_charges_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_charges_sp_salesinvoice_1sp_charges_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_charges_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_charges_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_charges_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_charges_sp_salesinvoice_1sp_charges_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_charges_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_charges_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_Charges',
+    'lhs_table' => 'sp_charges',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_charges_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_charges_sp_salesinvoice_1sp_charges_ida',
+    'join_key_rhs' => 'sp_charges_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_color_sp_color_1' => 
+  array (
+    'name' => 'sp_color_sp_color_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_color_sp_color_1' => 
+      array (
+        'lhs_module' => 'sp_Color',
+        'lhs_table' => 'sp_color',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_Color',
+        'rhs_table' => 'sp_color',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_color_sp_color_1_c',
+        'join_key_lhs' => 'sp_color_sp_color_1sp_color_ida',
+        'join_key_rhs' => 'sp_color_sp_color_1sp_color_idb',
+      ),
+    ),
+    'table' => 'sp_color_sp_color_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_color_sp_color_1sp_color_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_color_sp_color_1sp_color_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_color_sp_color_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_color_sp_color_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_color_sp_color_1sp_color_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_color_sp_color_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_color_sp_color_1sp_color_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_Color',
+    'lhs_table' => 'sp_color',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Color',
+    'rhs_table' => 'sp_color',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_color_sp_color_1_c',
+    'join_key_lhs' => 'sp_color_sp_color_1sp_color_ida',
+    'join_key_rhs' => 'sp_color_sp_color_1sp_color_idb',
+  ),
+  'sp_company_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_company_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_company_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_Company',
+        'lhs_table' => 'sp_company',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_company_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_company_sp_salesinvoice_1sp_company_ida',
+        'join_key_rhs' => 'sp_company_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_company_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_1sp_company_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_company_sp_salesinvoice_1sp_company_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_company_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_Company',
+    'lhs_table' => 'sp_company',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_company_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_company_sp_salesinvoice_1sp_company_ida',
+    'join_key_rhs' => 'sp_company_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_company_sp_salesinvoice_2' => 
+  array (
+    'name' => 'sp_company_sp_salesinvoice_2',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_company_sp_salesinvoice_2' => 
+      array (
+        'lhs_module' => 'sp_Company',
+        'lhs_table' => 'sp_company',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_company_sp_salesinvoice_2_c',
+        'join_key_lhs' => 'sp_company_sp_salesinvoice_2sp_company_ida',
+        'join_key_rhs' => 'sp_company_sp_salesinvoice_2sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_company_sp_salesinvoice_2_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_2sp_company_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_2sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_2spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_2_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_company_sp_salesinvoice_2sp_company_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_company_sp_salesinvoice_2_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_company_sp_salesinvoice_2sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_Company',
+    'lhs_table' => 'sp_company',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_company_sp_salesinvoice_2_c',
+    'join_key_lhs' => 'sp_company_sp_salesinvoice_2sp_company_ida',
+    'join_key_rhs' => 'sp_company_sp_salesinvoice_2sp_salesinvoice_idb',
+  ),
+  'sp_financingterm_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_financingterm_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_financingterm_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_financingTerm',
+        'lhs_table' => 'sp_financingterm',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_financingterm_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_financingterm_sp_salesinvoice_1sp_financingterm_ida',
+        'join_key_rhs' => 'sp_financingterm_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_financingterm_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_financingterm_sp_salesinvoice_1sp_financingterm_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_financingterm_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_financingterm_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_financingterm_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_financingterm_sp_salesinvoice_1sp_financingterm_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_financingterm_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_financingterm_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_financingTerm',
+    'lhs_table' => 'sp_financingterm',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_financingterm_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_financingterm_sp_salesinvoice_1sp_financingterm_ida',
+    'join_key_rhs' => 'sp_financingterm_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_invoicevehichle_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_invoicevehichle_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_invoicevehichle_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_invoiceVehichle',
+        'lhs_table' => 'sp_invoicevehichle',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_invoicevehichle_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_invoicevehichle_sp_salesinvoice_1sp_invoicevehichle_ida',
+        'join_key_rhs' => 'sp_invoicevehichle_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_invoicevehichle_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_invoicevehichle_sp_salesinvoice_1sp_invoicevehichle_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_invoicevehichle_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_invoicevehichle_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_invoicevehichle_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_invoicevehichle_sp_salesinvoice_1sp_invoicevehichle_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_invoicevehichle_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_invoicevehichle_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_invoiceVehichle',
+    'lhs_table' => 'sp_invoicevehichle',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_invoicevehichle_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_invoicevehichle_sp_salesinvoice_1sp_invoicevehichle_ida',
+    'join_key_rhs' => 'sp_invoicevehichle_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_model_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_model_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_model_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_model',
+        'lhs_table' => 'sp_model',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_model_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_model_sp_salesinvoice_1sp_model_ida',
+        'join_key_rhs' => 'sp_model_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_model_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_model_sp_salesinvoice_1sp_model_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_model_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_model_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_model_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_model_sp_salesinvoice_1sp_model_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_model_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_model_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_model',
+    'lhs_table' => 'sp_model',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_model_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_model_sp_salesinvoice_1sp_model_ida',
+    'join_key_rhs' => 'sp_model_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_promoname_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_promoname_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_promoname_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_promoName',
+        'lhs_table' => 'sp_promoname',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_promoname_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_promoname_sp_salesinvoice_1sp_promoname_ida',
+        'join_key_rhs' => 'sp_promoname_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_promoname_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_promoname_sp_salesinvoice_1sp_promoname_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_promoname_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_promoname_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_promoname_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_promoname_sp_salesinvoice_1sp_promoname_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_promoname_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_promoname_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_promoName',
+    'lhs_table' => 'sp_promoname',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_promoname_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_promoname_sp_salesinvoice_1sp_promoname_ida',
+    'join_key_rhs' => 'sp_promoname_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_scheme_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_scheme_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'sp_scheme_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_Scheme',
+        'lhs_table' => 'sp_scheme',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_scheme_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_scheme_sp_salesinvoice_1sp_scheme_ida',
+        'join_key_rhs' => 'sp_scheme_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_scheme_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_scheme_sp_salesinvoice_1sp_scheme_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_scheme_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_scheme_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_scheme_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_scheme_sp_salesinvoice_1sp_scheme_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_scheme_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_scheme_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_Scheme',
+    'lhs_table' => 'sp_scheme',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_scheme_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_scheme_sp_salesinvoice_1sp_scheme_ida',
+    'join_key_rhs' => 'sp_scheme_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
+  'sp_site_sp_salesinvoice_1' => 
+  array (
+    'name' => 'sp_site_sp_salesinvoice_1',
+    'true_relationship_type' => 'one-to-many',
+    'relationships' => 
+    array (
+      'sp_site_sp_salesinvoice_1' => 
+      array (
+        'lhs_module' => 'sp_Site',
+        'lhs_table' => 'sp_site',
+        'lhs_key' => 'id',
+        'rhs_module' => 'sp_salesInvoice',
+        'rhs_table' => 'sp_salesinvoice',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'sp_site_sp_salesinvoice_1_c',
+        'join_key_lhs' => 'sp_site_sp_salesinvoice_1sp_site_ida',
+        'join_key_rhs' => 'sp_site_sp_salesinvoice_1sp_salesinvoice_idb',
+      ),
+    ),
+    'table' => 'sp_site_sp_salesinvoice_1_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'sp_site_sp_salesinvoice_1sp_site_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'sp_site_sp_salesinvoice_1sp_salesinvoice_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'sp_site_sp_salesinvoice_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'sp_site_sp_salesinvoice_1_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'sp_site_sp_salesinvoice_1sp_site_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'sp_site_sp_salesinvoice_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'sp_site_sp_salesinvoice_1sp_salesinvoice_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'sp_Site',
+    'lhs_table' => 'sp_site',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'sp_site_sp_salesinvoice_1_c',
+    'join_key_lhs' => 'sp_site_sp_salesinvoice_1sp_site_ida',
+    'join_key_rhs' => 'sp_site_sp_salesinvoice_1sp_salesinvoice_idb',
+  ),
   'user_direct_reports' => 
   array (
     'name' => 'user_direct_reports',
@@ -14104,54 +15364,54 @@
       ),
     ),
   ),
-  'co123_facebook_modified_user' => 
+  'sp_bank_modified_user' => 
   array (
-    'name' => 'co123_facebook_modified_user',
+    'name' => 'sp_bank_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
     'lhs_key' => 'id',
-    'rhs_module' => 'co123_facebook',
-    'rhs_table' => 'co123_facebook',
+    'rhs_module' => 'sp_bank',
+    'rhs_table' => 'sp_bank',
     'rhs_key' => 'modified_user_id',
     'relationship_type' => 'one-to-many',
   ),
-  'co123_facebook_created_by' => 
+  'sp_bank_created_by' => 
   array (
-    'name' => 'co123_facebook_created_by',
+    'name' => 'sp_bank_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
     'lhs_key' => 'id',
-    'rhs_module' => 'co123_facebook',
-    'rhs_table' => 'co123_facebook',
+    'rhs_module' => 'sp_bank',
+    'rhs_table' => 'sp_bank',
     'rhs_key' => 'created_by',
     'relationship_type' => 'one-to-many',
   ),
-  'co123_facebook_assigned_user' => 
+  'sp_bank_assigned_user' => 
   array (
-    'name' => 'co123_facebook_assigned_user',
+    'name' => 'sp_bank_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
     'lhs_key' => 'id',
-    'rhs_module' => 'co123_facebook',
-    'rhs_table' => 'co123_facebook',
+    'rhs_module' => 'sp_bank',
+    'rhs_table' => 'sp_bank',
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),
-  'securitygroups_co123_facebook' => 
+  'securitygroups_sp_bank' => 
   array (
-    'name' => 'securitygroups_co123_facebook',
+    'name' => 'securitygroups_sp_bank',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'co123_facebook',
-    'rhs_table' => 'co123_facebook',
+    'rhs_module' => 'sp_bank',
+    'rhs_table' => 'sp_bank',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
     'join_key_lhs' => 'securitygroup_id',
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
-    'relationship_role_column_value' => 'co123_facebook',
+    'relationship_role_column_value' => 'sp_bank',
     'fields' => 
     array (
       0 => 
@@ -14207,54 +15467,981 @@
       ),
     ),
   ),
-  'co123_testing_modified_user' => 
+  'sp_charges_modified_user' => 
   array (
-    'name' => 'co123_testing_modified_user',
+    'name' => 'sp_charges_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
     'lhs_key' => 'id',
-    'rhs_module' => 'co123_testing',
-    'rhs_table' => 'co123_testing',
+    'rhs_module' => 'sp_Charges',
+    'rhs_table' => 'sp_charges',
     'rhs_key' => 'modified_user_id',
     'relationship_type' => 'one-to-many',
   ),
-  'co123_testing_created_by' => 
+  'sp_charges_created_by' => 
   array (
-    'name' => 'co123_testing_created_by',
+    'name' => 'sp_charges_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
     'lhs_key' => 'id',
-    'rhs_module' => 'co123_testing',
-    'rhs_table' => 'co123_testing',
+    'rhs_module' => 'sp_Charges',
+    'rhs_table' => 'sp_charges',
     'rhs_key' => 'created_by',
     'relationship_type' => 'one-to-many',
   ),
-  'co123_testing_assigned_user' => 
+  'sp_charges_assigned_user' => 
   array (
-    'name' => 'co123_testing_assigned_user',
+    'name' => 'sp_charges_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
     'lhs_key' => 'id',
-    'rhs_module' => 'co123_testing',
-    'rhs_table' => 'co123_testing',
+    'rhs_module' => 'sp_Charges',
+    'rhs_table' => 'sp_charges',
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),
-  'securitygroups_co123_testing' => 
+  'securitygroups_sp_charges' => 
   array (
-    'name' => 'securitygroups_co123_testing',
+    'name' => 'securitygroups_sp_charges',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
     'lhs_key' => 'id',
-    'rhs_module' => 'co123_testing',
-    'rhs_table' => 'co123_testing',
+    'rhs_module' => 'sp_Charges',
+    'rhs_table' => 'sp_charges',
     'rhs_key' => 'id',
     'relationship_type' => 'many-to-many',
     'join_table' => 'securitygroups_records',
     'join_key_lhs' => 'securitygroup_id',
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
-    'relationship_role_column_value' => 'co123_testing',
+    'relationship_role_column_value' => 'sp_Charges',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_color_modified_user' => 
+  array (
+    'name' => 'sp_color_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Color',
+    'rhs_table' => 'sp_color',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_color_created_by' => 
+  array (
+    'name' => 'sp_color_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Color',
+    'rhs_table' => 'sp_color',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_color_assigned_user' => 
+  array (
+    'name' => 'sp_color_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Color',
+    'rhs_table' => 'sp_color',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_color' => 
+  array (
+    'name' => 'securitygroups_sp_color',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Color',
+    'rhs_table' => 'sp_color',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_Color',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_company_modified_user' => 
+  array (
+    'name' => 'sp_company_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Company',
+    'rhs_table' => 'sp_company',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_company_created_by' => 
+  array (
+    'name' => 'sp_company_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Company',
+    'rhs_table' => 'sp_company',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_company_assigned_user' => 
+  array (
+    'name' => 'sp_company_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Company',
+    'rhs_table' => 'sp_company',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_company' => 
+  array (
+    'name' => 'securitygroups_sp_company',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Company',
+    'rhs_table' => 'sp_company',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_Company',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_financingterm_modified_user' => 
+  array (
+    'name' => 'sp_financingterm_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_financingTerm',
+    'rhs_table' => 'sp_financingterm',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_financingterm_created_by' => 
+  array (
+    'name' => 'sp_financingterm_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_financingTerm',
+    'rhs_table' => 'sp_financingterm',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_financingterm_assigned_user' => 
+  array (
+    'name' => 'sp_financingterm_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_financingTerm',
+    'rhs_table' => 'sp_financingterm',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_financingterm' => 
+  array (
+    'name' => 'securitygroups_sp_financingterm',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_financingTerm',
+    'rhs_table' => 'sp_financingterm',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_financingTerm',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_invoicevehichle_modified_user' => 
+  array (
+    'name' => 'sp_invoicevehichle_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_invoiceVehichle',
+    'rhs_table' => 'sp_invoicevehichle',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_invoicevehichle_created_by' => 
+  array (
+    'name' => 'sp_invoicevehichle_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_invoiceVehichle',
+    'rhs_table' => 'sp_invoicevehichle',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_invoicevehichle_assigned_user' => 
+  array (
+    'name' => 'sp_invoicevehichle_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_invoiceVehichle',
+    'rhs_table' => 'sp_invoicevehichle',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_invoicevehichle' => 
+  array (
+    'name' => 'securitygroups_sp_invoicevehichle',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_invoiceVehichle',
+    'rhs_table' => 'sp_invoicevehichle',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_invoiceVehichle',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_model_modified_user' => 
+  array (
+    'name' => 'sp_model_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_model',
+    'rhs_table' => 'sp_model',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_model_created_by' => 
+  array (
+    'name' => 'sp_model_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_model',
+    'rhs_table' => 'sp_model',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_model_assigned_user' => 
+  array (
+    'name' => 'sp_model_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_model',
+    'rhs_table' => 'sp_model',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_model' => 
+  array (
+    'name' => 'securitygroups_sp_model',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_model',
+    'rhs_table' => 'sp_model',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_model',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_promoname_modified_user' => 
+  array (
+    'name' => 'sp_promoname_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_promoName',
+    'rhs_table' => 'sp_promoname',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_promoname_created_by' => 
+  array (
+    'name' => 'sp_promoname_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_promoName',
+    'rhs_table' => 'sp_promoname',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_promoname_assigned_user' => 
+  array (
+    'name' => 'sp_promoname_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_promoName',
+    'rhs_table' => 'sp_promoname',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_promoname' => 
+  array (
+    'name' => 'securitygroups_sp_promoname',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_promoName',
+    'rhs_table' => 'sp_promoname',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_promoName',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_salesinvoice_modified_user' => 
+  array (
+    'name' => 'sp_salesinvoice_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_salesinvoice_created_by' => 
+  array (
+    'name' => 'sp_salesinvoice_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_salesinvoice_assigned_user' => 
+  array (
+    'name' => 'sp_salesinvoice_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_salesinvoice' => 
+  array (
+    'name' => 'securitygroups_sp_salesinvoice',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_salesInvoice',
+    'rhs_table' => 'sp_salesinvoice',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_salesInvoice',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_scheme_modified_user' => 
+  array (
+    'name' => 'sp_scheme_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Scheme',
+    'rhs_table' => 'sp_scheme',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_scheme_created_by' => 
+  array (
+    'name' => 'sp_scheme_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Scheme',
+    'rhs_table' => 'sp_scheme',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_scheme_assigned_user' => 
+  array (
+    'name' => 'sp_scheme_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Scheme',
+    'rhs_table' => 'sp_scheme',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_scheme' => 
+  array (
+    'name' => 'securitygroups_sp_scheme',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Scheme',
+    'rhs_table' => 'sp_scheme',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_Scheme',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'sp_site_modified_user' => 
+  array (
+    'name' => 'sp_site_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Site',
+    'rhs_table' => 'sp_site',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_site_created_by' => 
+  array (
+    'name' => 'sp_site_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Site',
+    'rhs_table' => 'sp_site',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'sp_site_assigned_user' => 
+  array (
+    'name' => 'sp_site_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Site',
+    'rhs_table' => 'sp_site',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_sp_site' => 
+  array (
+    'name' => 'securitygroups_sp_site',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'sp_Site',
+    'rhs_table' => 'sp_site',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'sp_Site',
     'fields' => 
     array (
       0 => 

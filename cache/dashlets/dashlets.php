@@ -1,5 +1,5 @@
 <?php
-// created: 2018-05-28 11:03:01
+// created: 2018-05-30 10:25:34
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -176,20 +176,6 @@ $dashletsFiles = array (
     'meta' => 'modules/Charts/Dashlets/PipelineBySalesStageDashlet/PipelineBySalesStageDashlet.meta.php',
     'module' => 'Opportunities',
   ),
-  'co123_facebookDashlet' => 
-  array (
-    'file' => 'modules/co123_facebook/Dashlets/co123_facebookDashlet/co123_facebookDashlet.php',
-    'class' => 'co123_facebookDashlet',
-    'meta' => 'modules/co123_facebook/Dashlets/co123_facebookDashlet/co123_facebookDashlet.meta.php',
-    'module' => 'co123_facebook',
-  ),
-  'co123_testingDashlet' => 
-  array (
-    'file' => 'modules/co123_testing/Dashlets/co123_testingDashlet/co123_testingDashlet.php',
-    'class' => 'co123_testingDashlet',
-    'meta' => 'modules/co123_testing/Dashlets/co123_testingDashlet/co123_testingDashlet.meta.php',
-    'module' => 'co123_testing',
-  ),
   'MyContactsDashlet' => 
   array (
     'file' => 'modules/Contacts/Dashlets/MyContactsDashlet/MyContactsDashlet.php',
@@ -352,6 +338,83 @@ $dashletsFiles = array (
     'file' => 'modules/Spots/Dashlets/SpotsDashlet/SpotsDashlet.php',
     'class' => 'SpotsDashlet',
     'meta' => 'modules/Spots/Dashlets/SpotsDashlet/SpotsDashlet.meta.php',
+  ),
+  'sp_bankDashlet' => 
+  array (
+    'file' => 'modules/sp_bank/Dashlets/sp_bankDashlet/sp_bankDashlet.php',
+    'class' => 'sp_bankDashlet',
+    'meta' => 'modules/sp_bank/Dashlets/sp_bankDashlet/sp_bankDashlet.meta.php',
+    'module' => 'sp_bank',
+  ),
+  'sp_ChargesDashlet' => 
+  array (
+    'file' => 'modules/sp_Charges/Dashlets/sp_ChargesDashlet/sp_ChargesDashlet.php',
+    'class' => 'sp_ChargesDashlet',
+    'meta' => 'modules/sp_Charges/Dashlets/sp_ChargesDashlet/sp_ChargesDashlet.meta.php',
+    'module' => 'sp_Charges',
+  ),
+  'sp_ColorDashlet' => 
+  array (
+    'file' => 'modules/sp_Color/Dashlets/sp_ColorDashlet/sp_ColorDashlet.php',
+    'class' => 'sp_ColorDashlet',
+    'meta' => 'modules/sp_Color/Dashlets/sp_ColorDashlet/sp_ColorDashlet.meta.php',
+    'module' => 'sp_Color',
+  ),
+  'sp_CompanyDashlet' => 
+  array (
+    'file' => 'modules/sp_Company/Dashlets/sp_CompanyDashlet/sp_CompanyDashlet.php',
+    'class' => 'sp_CompanyDashlet',
+    'meta' => 'modules/sp_Company/Dashlets/sp_CompanyDashlet/sp_CompanyDashlet.meta.php',
+    'module' => 'sp_Company',
+  ),
+  'sp_financingTermDashlet' => 
+  array (
+    'file' => 'modules/sp_financingTerm/Dashlets/sp_financingTermDashlet/sp_financingTermDashlet.php',
+    'class' => 'sp_financingTermDashlet',
+    'meta' => 'modules/sp_financingTerm/Dashlets/sp_financingTermDashlet/sp_financingTermDashlet.meta.php',
+    'module' => 'sp_financingTerm',
+  ),
+  'sp_invoiceVehichleDashlet' => 
+  array (
+    'file' => 'modules/sp_invoiceVehichle/Dashlets/sp_invoiceVehichleDashlet/sp_invoiceVehichleDashlet.php',
+    'class' => 'sp_invoiceVehichleDashlet',
+    'meta' => 'modules/sp_invoiceVehichle/Dashlets/sp_invoiceVehichleDashlet/sp_invoiceVehichleDashlet.meta.php',
+    'module' => 'sp_invoiceVehichle',
+  ),
+  'sp_modelDashlet' => 
+  array (
+    'file' => 'modules/sp_model/Dashlets/sp_modelDashlet/sp_modelDashlet.php',
+    'class' => 'sp_modelDashlet',
+    'meta' => 'modules/sp_model/Dashlets/sp_modelDashlet/sp_modelDashlet.meta.php',
+    'module' => 'sp_model',
+  ),
+  'sp_promoNameDashlet' => 
+  array (
+    'file' => 'modules/sp_promoName/Dashlets/sp_promoNameDashlet/sp_promoNameDashlet.php',
+    'class' => 'sp_promoNameDashlet',
+    'meta' => 'modules/sp_promoName/Dashlets/sp_promoNameDashlet/sp_promoNameDashlet.meta.php',
+    'module' => 'sp_promoName',
+  ),
+  'sp_salesInvoiceDashlet' => 
+  array (
+    'file' => 'modules/sp_salesInvoice/Dashlets/sp_salesInvoiceDashlet/sp_salesInvoiceDashlet.php',
+    'class' => 'sp_salesInvoiceDashlet',
+    'meta' => 'modules/sp_salesInvoice/Dashlets/sp_salesInvoiceDashlet/sp_salesInvoiceDashlet.meta.php',
+    'module' => 'sp_salesInvoice',
+  ),
+  'sp_SchemeDashlet' => 
+  array (
+    'file' => 'modules/sp_Scheme/Dashlets/sp_SchemeDashlet/sp_SchemeDashlet.php',
+    'class' => 'sp_SchemeDashlet',
+    'meta' => 'modules/sp_Scheme/Dashlets/sp_SchemeDashlet/sp_SchemeDashlet.meta.php',
+    'module' => 'sp_Scheme',
+  ),
+  'sp_SiteDashlet' => 
+  array (
+    'file' => 'modules/sp_Site/Dashlets/sp_SiteDashlet/sp_SiteDashlet.php',
+    'class' => 'sp_SiteDashlet',
+    'meta' => 'modules/sp_Site/Dashlets/sp_SiteDashlet/sp_SiteDashlet.meta.php',
+    'module' => 'sp_Site',
   ),
   'SugarFeedDashlet' => 
   array (

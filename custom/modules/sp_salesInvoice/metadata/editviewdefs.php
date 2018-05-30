@@ -1,0 +1,135 @@
+<?php
+$module_name = 'sp_salesInvoice';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 'assigned_user_name',
+        ),
+        1 => 
+        array (
+          0 => 'description',
+          1 => 
+          array (
+            'name' => 'modified_by_name',
+            'label' => 'LBL_MODIFIED_NAME',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_modified',
+            'comment' => 'Date record last modified',
+            'label' => 'LBL_DATE_MODIFIED',
+          ),
+          1 => 
+          array (
+            'name' => 'sp_site_sp_salesinvoice_1_name',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sp_site_sp_salesinvoice_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'sp_model_sp_salesinvoice_1_name',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sp_company_sp_salesinvoice_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'sp_company_sp_salesinvoice_2_name',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sp_invoicevehichle_sp_salesinvoice_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'sp_charges_sp_salesinvoice_1_name',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sp_promoname_sp_salesinvoice_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'sp_financingterm_sp_salesinvoice_1_name',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sp_bank_sp_salesinvoice_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'sp_scheme_sp_salesinvoice_1_name',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'leads_sp_salesinvoice_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'accounts_sp_salesinvoice_1_name',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

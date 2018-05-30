@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36fcb40d-7649-45ef-85ed-96bc00887428" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/Relationships/relationships.cache.php" afterPath="$PROJECT_DIR$/cache/Relationships/relationships.cache.php" />
+      <change beforePath="$PROJECT_DIR$/cache/dashlets/dashlets.php" afterPath="$PROJECT_DIR$/cache/dashlets/dashlets.php" />
+      <change beforePath="$PROJECT_DIR$/cache/jsLanguage/en_us.js" afterPath="$PROJECT_DIR$/cache/jsLanguage/en_us.js" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AM_ProjectTemplates/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AM_ProjectTemplates/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AM_TaskTemplates/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AM_TaskTemplates/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOBH_BusinessHours/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOBH_BusinessHours/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOD_Index/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOD_Index/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOD_IndexEvent/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOD_IndexEvent/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOK_KnowledgeBase/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOK_KnowledgeBase/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOK_Knowledge_Base_Categories/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOK_Knowledge_Base_Categories/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOP_Case_Events/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOP_Case_Events/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOP_Case_Updates/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOP_Case_Updates/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOR_Charts/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOR_Charts/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOR_Conditions/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOR_Conditions/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOR_Fields/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOR_Fields/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOR_Reports/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOR_Reports/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOR_Scheduled_Reports/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOR_Scheduled_Reports/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOS_Contracts/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOS_Contracts/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOS_Invoices/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOS_Invoices/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOS_Line_Item_Groups/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOS_Line_Item_Groups/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOS_PDF_Templates/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOS_PDF_Templates/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOS_Product_Categories/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOS_Product_Categories/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOS_Products/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOS_Products/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOS_Products_Quotes/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOS_Products_Quotes/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOS_Quotes/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOS_Quotes/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOW_Actions/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOW_Actions/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOW_Conditions/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOW_Conditions/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOW_Processed/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOW_Processed/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/AOW_WorkFlow/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/AOW_WorkFlow/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Accounts/Accountvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Accounts/Accountvardefs.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Accounts/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Accounts/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Administration/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Administration/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Alerts/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Alerts/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Bugs/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Bugs/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Calendar/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Calls/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Calls/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Calls_Reschedule/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Calls_Reschedule/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Campaigns/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Campaigns/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Cases/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Cases/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Configurator/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Connectors/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Contacts/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Contacts/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Currencies/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Documents/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Documents/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/EAPM/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/EAPM/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/EmailTemplates/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/EmailTemplates/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Emails/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Emails/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/FP_Event_Locations/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/FP_Event_Locations/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/FP_events/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/FP_events/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Favorites/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Favorites/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Home/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Home/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Import/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/InboundEmail/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/InboundEmail/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Leads/Leadvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Leads/Leadvardefs.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Leads/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Leads/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Meetings/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Meetings/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/ModuleBuilder/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/ModuleBuilder/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Notes/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Notes/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/OAuth2Clients/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/OAuth2Clients/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/OAuth2Tokens/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/OAuth2Tokens/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/OAuthKeys/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/OAuthKeys/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Opportunities/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Opportunities/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/OutboundEmailAccounts/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/OutboundEmailAccounts/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Project/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Project/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/ProjectTask/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/ProjectTask/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/ProspectLists/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/ProspectLists/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Prospects/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Prospects/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Relationships/relationships.cache.php" afterPath="$PROJECT_DIR$/cache/modules/Relationships/relationships.cache.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Reminders/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Reminders/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Reminders_Invitees/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Reminders_Invitees/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/SavedSearch/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SavedSearch/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Schedulers/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/SchedulersJobs/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SchedulersJobs/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/SecurityGroups/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SecurityGroups/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Spots/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Spots/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Studio/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/SugarFeed/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SugarFeed/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/SurveyQuestionOptions/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SurveyQuestionOptions/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/SurveyQuestionResponses/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SurveyQuestionResponses/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/SurveyQuestions/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SurveyQuestions/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/SurveyResponses/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SurveyResponses/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Surveys/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Surveys/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Tasks/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Tasks/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/TemplateSectionLine/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/TemplateSectionLine/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/Users/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Users/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/co123_facebook/co123_facebookvardefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/co123_facebook/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/co123_testing/co123_testingvardefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/co123_testing/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/jjwg_Address_Cache/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/jjwg_Address_Cache/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/jjwg_Areas/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/jjwg_Areas/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/jjwg_Maps/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/jjwg_Maps/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/modules/jjwg_Markers/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/jjwg_Markers/language/en_us.lang.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%00^00D^00DD34E7%%listView.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%00^00D^00DD34E7%%listView.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%00^00F^00F5D2D7%%footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%00^00F^00F5D2D7%%footer.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%04^045^0453F55B%%ListView.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%04^047^047CC1D0%%login.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%04^047^047CC1D0%%login.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%07^07B^07B7FFED%%ConfigureTabs.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%0A^0AE^0AE3B98D%%recaptcha_disabled.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%0A^0AE^0AE3B98D%%recaptcha_disabled.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%0E^0EB^0EB12087%%Studio.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%0E^0EB^0EB45D3B%%SavedSearchSelects.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%0E^0EB^0EB45D3B%%SavedSearchSelects.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%12^124^124A1C11%%SearchFormHeader.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%12^12E^12EC8D70%%SearchFormHeader.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%14^148^14804A90%%DashletGenericDisplay.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%14^148^14804A90%%DashletGenericDisplay.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%16^16A^16AB0582%%studioRelationships.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%16^16A^16AB0582%%studioRelationships.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%17^172^172BD7D8%%themeConfigSettings.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%17^17E^17E70169%%actions_menu.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%17^17E^17E70169%%actions_menu.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%1A^1AB^1AB6DD00%%tab_panel_content.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%1A^1AB^1AB6DD00%%tab_panel_content.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%1F^1F2^1F24C705%%MySugar2.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%1F^1F2^1F24C705%%MySugar2.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%22^220^220592BE%%Locale.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%23^23F^23FF8AFA%%EditView.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%23^23F^23FF8AFA%%EditView.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%28^287^2879BF3B%%_head.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%28^287^2879BF3B%%_head.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%2E^2E9^2E9D060B%%headerPopup.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%2E^2E9^2E9D060B%%headerPopup.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%31^318^3185443E%%vardef.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%34^343^3438642F%%DashletHeader.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%34^343^3438642F%%DashletHeader.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%38^380^380B95DF%%caseUpdateForm.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%38^380^380B95DF%%caseUpdateForm.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%38^381^381159F8%%AdminSettings.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%3A^3A8^3A80F1B1%%deploy.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%3B^3B6^3B623740%%SearchForm_basic.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%3B^3BC^3BC4A621%%SearchForm_basic.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%3D^3DD^3DDB617D%%module.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%3D^3DD^3DDB617D%%module.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%45^451^4518C478%%footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%45^451^4518C478%%footer.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%4B^4B2^4B2E1300%%modify_display.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%4B^4B5^4B52E1D2%%step1.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%4C^4C2^4C211FA1%%SearchFormFooter.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%4C^4CA^4CA03677%%RenameModules.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%4E^4E7^4E70457E%%wizardWrapper.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%56^566^56669478%%default.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%56^566^56669478%%default.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%5C^5C2^5C23B51C%%index.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%5C^5C2^5C23B51C%%index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%5F^5F4^5F4CF2EE%%header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%5F^5F4^5F4CF2EE%%header.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%5F^5F6^5F69BC8F%%themeSettings.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%60^60A^60AEE1A6%%labels.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%60^60A^60AEE1A6%%labels.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%61^61E^61EA7DBD%%SearchFormFooter.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%62^62E^62E293EC%%EditView.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%62^62E^62E293EC%%EditView.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%65^65D^65DE9EB2%%EditView.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%65^65D^65DE9EB2%%EditView.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%68^687^687581C7%%administration.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%6E^6E2^6E2ED031%%actions_buttons.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%6E^6E2^6E2ED031%%actions_buttons.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%74^74F^74FBB9DE%%DashletGenericAutoRefresh.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%74^74F^74FBB9DE%%DashletGenericAutoRefresh.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%79^79D^79D9896D%%displayLoginJS.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%79^79D^79D9896D%%displayLoginJS.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%7C^7C8^7C8076E0%%DashletFooter.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%7C^7C8^7C8076E0%%DashletFooter.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%7C^7CE^7CE38A2D%%EditView.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%7E^7E2^7E2EB4A5%%ListViewGeneric.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%7E^7E2^7E2EB4A5%%ListViewGeneric.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%7F^7FB^7FB2DEC8%%ListViewPaginationTop.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%85^852^85294558%%get_form_header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%85^852^85294558%%get_form_header.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%89^89C^89C01789%%displayIndicatorField.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%89^89C^89C01789%%displayIndicatorField.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%8B^8B3^8B3EDACC%%fields.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%8B^8B3^8B3EDACC%%fields.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%8B^8BC^8BC9C8DC%%ListViewPaginationBottom.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%8F^8F0^8F0B982C%%EditView.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%92^92B^92BF3B7E%%modify_properties.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%98^985^9859496C%%SearchFormHeader.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%9A^9A2^9A271045%%index.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%9A^9A2^9A271045%%index.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%9C^9C0^9C049E8F%%Diagnostic.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%9C^9CB^9CBA0021%%SearchForm_basic.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%9F^9F8^9F86328A%%ListViewSearchLink.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%9F^9F8^9F86328A%%ListViewSearchLink.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%A1^A11^A118CA22%%package.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%A1^A11^A118CA22%%package.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%A2^A27^A2779A4D%%ListViewColumnsFilterDialog.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%A2^A27^A2779A4D%%ListViewColumnsFilterDialog.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%A5^A5D^A5D92CA8%%editProperty.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%A5^A5D^A5D92CA8%%editProperty.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%A6^A6F^A6FFC63F%%footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%A6^A6F^A6FFC63F%%footer.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%A8^A8E^A8EBB0DC%%source_properties.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%AE^AE9^AE9373ED%%SugarFeedScript.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%AE^AE9^AE9373ED%%SugarFeedScript.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%B0^B0C^B0C26FA2%%UserPostForm.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%B0^B0C^B0C26FA2%%UserPostForm.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%B1^B17^B171623D%%SearchForm_basic.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%B4^B43^B4351F55%%wizard.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%B4^B43^B4351F55%%wizard.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%B5^B59^B5922B70%%SearchFormHeader.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%BB^BB0^BB07744C%%display_properties.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%BC^BCA^BCABF0A9%%header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%BC^BCA^BCABF0A9%%header.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%BF^BF1^BF139AEF%%actions_buttons.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%BF^BF1^BF139AEF%%actions_buttons.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%C0^C00^C001856F%%SearchFormGeneric.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%C0^C00^C001856F%%SearchFormGeneric.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%C0^C09^C09BC89E%%Menu.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%C9^C95^C95D1E90%%displaySubjectField.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%C9^C95^C95D1E90%%displaySubjectField.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%C9^C95^C95F3C59%%includes.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%C9^C95^C95F3C59%%includes.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%CC^CCD^CCD13BA4%%ListViewSelectObjects.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%CC^CCD^CCD13BA4%%ListViewSelectObjects.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%CD^CD1^CD1E1232%%layoutView.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%CD^CD1^CD1E1232%%layoutView.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%CE^CEA^CEA9C808%%ListViewColumnsFilterLink.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%DC^DC8^DC883148%%ListViewButtons.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%E7^E72^E72725A9%%footerPopup.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%E7^E72^E72725A9%%footerPopup.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%EB^EB5^EB5FB9A1%%SearchFormFooter.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%EB^EBF^EBF928C0%%SearchFormFooter.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%ED^EDA^EDA1ACAC%%EditView.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%ED^EDA^EDA1ACAC%%EditView.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%F3^F31^F313B5E1%%reminders.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%F3^F31^F313B5E1%%reminders.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%F3^F3A^F3A0A505%%Class.tpl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%F6^F60^F609237E%%_headerModuleList.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%F6^F60^F609237E%%_headerModuleList.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%F7^F75^F75DB14C%%displayHasAttachmentField.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%F7^F75^F75DB14C%%displayHasAttachmentField.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%F9^F94^F946E606%%header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%F9^F94^F946E606%%header.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%FA^FAA^FAA7C193%%MySugar.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%FA^FAA^FAA7C193%%MySugar.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%FF^FFC^FFC45CDF%%assistantJavascript.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%FF^FFC^FFC45CDF%%assistantJavascript.tpl.php" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/OAuth2Clients/SearchFormFooter.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/OAuth2Clients/SearchFormHeader.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/OAuth2Clients/SearchForm_basic.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/OAuthKeys/EditView.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/OAuthKeys/SearchFormFooter.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/OAuthKeys/SearchFormHeader.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/OAuthKeys/SearchForm_basic.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/Schedulers/SearchFormFooter.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/Schedulers/SearchFormHeader.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/Schedulers/SearchForm_basic.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/co123_testing/SearchFormFooter.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/co123_testing/SearchFormHeader.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/modules/co123_testing/SearchForm_basic.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cache/themes/SuiteP/pathCache.php" afterPath="$PROJECT_DIR$/cache/themes/SuiteP/pathCache.php" />
+      <change beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change beforePath="$PROJECT_DIR$/custom/Extension/application/Ext/Include/test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/Extension/application/Ext/Language/en_us.test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/application/Ext/Include/modules.ext.php" afterPath="$PROJECT_DIR$/custom/application/Ext/Include/modules.ext.php" />
+      <change beforePath="$PROJECT_DIR$/custom/application/Ext/Language/en_us.lang.ext.php" afterPath="$PROJECT_DIR$/custom/application/Ext/Language/en_us.lang.ext.php" />
+      <change beforePath="$PROJECT_DIR$/custom/application/Ext/TableDictionary/tabledictionary.ext.php" afterPath="$PROJECT_DIR$/custom/application/Ext/TableDictionary/tabledictionary.ext.php" />
+      <change beforePath="$PROJECT_DIR$/custom/include/tabConfig.php" afterPath="$PROJECT_DIR$/custom/include/tabConfig.php" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/Createco123_facebook.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/Createco123_facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/Createco123_testing.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/Createco123_testing.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/co123_facebook.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/co123_facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/co123_testing.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/co123_testing.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/icon_Co123_facebook.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/icon_Co123_testing.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/icon_co123_facebook_32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/icon_co123_facebook_32.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/icon_co123_testing_32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/icon_co123_testing_32.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/sidebar/modules/co123_facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/sidebar/modules/co123_testing.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/sub_panel/co123_facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/sub_panel/co123_testing.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/sub_panel/modules/co123_facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/icons/sub_panel/modules/co123_testing.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/language/application/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/manifest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/Dashlets/co123_facebookDashlet/co123_facebookDashlet.meta.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/Dashlets/co123_facebookDashlet/co123_facebookDashlet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/SearchFields.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/dashletviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/detailviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/editviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/listviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/metafiles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/popupdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/quickcreatedefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/searchdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/metadata/subpanels/default.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/relationships.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/facebook/vardefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/Dashlets/co123_testingDashlet/co123_testingDashlet.meta.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/Dashlets/co123_testingDashlet/co123_testingDashlet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/SearchFields.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/dashletviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/detailviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/editviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/listviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/metafiles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/popupdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/quickcreatedefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/searchdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/metadata/subpanels/default.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/relationships.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/modules/testing/vardefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modulebuilder/packages/test/zips/test2018_05_28_103920.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/custom/modules/Accounts/Ext/Vardefs/vardefs.ext.php" afterPath="$PROJECT_DIR$/custom/modules/Accounts/Ext/Vardefs/vardefs.ext.php" />
+      <change beforePath="$PROJECT_DIR$/custom/modules/Leads/Ext/Vardefs/vardefs.ext.php" afterPath="$PROJECT_DIR$/custom/modules/Leads/Ext/Vardefs/vardefs.ext.php" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/Dashlets/co123_facebookDashlet/co123_facebookDashlet.meta.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/Dashlets/co123_facebookDashlet/co123_facebookDashlet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/Menu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/co123_facebook.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/SearchFields.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/dashletviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/detailviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/editviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/listviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/metafiles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/popupdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/quickcreatedefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/searchdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/studio.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/metadata/subpanels/default.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_facebook/vardefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/Dashlets/co123_testingDashlet/co123_testingDashlet.meta.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/Dashlets/co123_testingDashlet/co123_testingDashlet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/Menu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/co123_testing.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/language/en_us.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/SearchFields.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/dashletviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/detailviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/editviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/listviewdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/metafiles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/popupdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/quickcreatedefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/searchdefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/studio.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/metadata/subpanels/default.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/modules/co123_testing/vardefs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/suitecrm.log" afterPath="$PROJECT_DIR$/suitecrm.log" />
+      <change beforePath="$PROJECT_DIR$/upload/upgrades/module/test2018_05_28_110205-manifest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/upload/upgrades/module/test2018_05_28_110205.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/onelogin/php-saml" afterPath="$PROJECT_DIR$/vendor/onelogin/php-saml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="listviewdefs.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/custom/modules/sp_salesInvoice/metadata/listviewdefs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modules/sp_salesInvoice/vardefs.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1919" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sp_salesInvoice" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sp_salesInvoice" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="metadata" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sp_bank" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sp_salesInvoice" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36fcb40d-7649-45ef-85ed-96bc00887428" name="Default" comment="" />
+      <created>1527555672586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527555672586</updated>
+      <workItem from="1527555674625" duration="1842000" />
+      <workItem from="1527580753069" duration="107000" />
+      <workItem from="1527580975613" duration="784000" />
+      <workItem from="1527650965640" duration="462000" />
+      <workItem from="1527667157186" duration="1358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4553000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19989339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.877551" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/sp_bank/vardefs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="55" column="97" lean-forward="true" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sp_salesInvoice/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sp_salesInvoice/vardefs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/sp_salesInvoice/metadata/listviewdefs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

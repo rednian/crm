@@ -43,13 +43,16 @@
 
 
 
-$app_list_strings['moduleList']['co123_facebook'] = 'facebook label';
-$app_list_strings['moduleList']['co123_testing'] = 'this is  a label';
-$app_list_strings['co123_testing_type_dom'][''] = '';
-$app_list_strings['co123_testing_type_dom']['Existing Business'] = 'Existing Business';
-$app_list_strings['co123_testing_type_dom']['New Business'] = 'New Business';
-$app_list_strings['co123_facebook_type_dom'][''] = '';
-$app_list_strings['co123_facebook_type_dom']['Existing Business'] = 'Existing Business';
-$app_list_strings['co123_facebook_type_dom']['New Business'] = 'New Business';
+$app_list_strings['moduleList']['sp_bank'] = 'Bank';
+$app_list_strings['moduleList']['sp_Charges'] = 'Charges';
+$app_list_strings['moduleList']['sp_Color'] = 'Color';
+$app_list_strings['moduleList']['sp_Company'] = 'Provider/Company';
+$app_list_strings['moduleList']['sp_financingTerm'] = 'Financing Term';
+$app_list_strings['moduleList']['sp_invoiceVehichle'] = 'Invoice Vehichle';
+$app_list_strings['moduleList']['sp_model'] = 'Base Model';
+$app_list_strings['moduleList']['sp_promoName'] = 'Promo Name';
+$app_list_strings['moduleList']['sp_salesInvoice'] = 'Sales Invoice';
+$app_list_strings['moduleList']['sp_Scheme'] = 'Scheme';
+$app_list_strings['moduleList']['sp_Site'] = 'Site';
 
 ?>

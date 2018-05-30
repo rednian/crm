@@ -1,5 +1,5 @@
 <?php
-// created: 2018-05-28 09:51:34
+// created: 2018-05-30 05:21:33
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -204,4 +204,5 @@ $mod_strings = array (
   'LBL_LOADING' => 'Loading',
   'LBL_EDIT_INLINE' => 'Edit',
   'LBL_FP_EVENTS_LEADS_1_FROM_FP_EVENTS_TITLE' => 'Events',
+  'LBL_LEADS_SP_SALESINVOICE_1_FROM_SP_SALESINVOICE_TITLE' => 'Sales Invoice',
 );
